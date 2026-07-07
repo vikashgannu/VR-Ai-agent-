@@ -1,6 +1,16 @@
-print("===================================")
+from brain.agent import VRAIAgent
+
+print("=================================")
 print("      VR AI Agent v1.0")
-print("===================================")
-print("Welcome Vikash!")
-print("AI Agent is starting...")
-print("Status: Ready")
+print("=================================")
+
+agent = VRAIAgent()
+
+while True:
+    command = input("You: ")
+
+    if command.lower() == "exit":
+        print("Goodbye!")
+        break
+
+    agent.run(command)
