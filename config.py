@@ -1,0 +1,9 @@
+APP_NAME = "VR AI Agent"
+VERSION = "1.0.0"
+OWNER = "Vikash Gurjar"
+
+YOUTUBE_CHANNEL = ""
+OPENAI_API_KEY = ""
+YOUTUBE_API_KEY = ""
+
+DEBUG = True
