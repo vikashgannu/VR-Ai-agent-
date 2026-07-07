@@ -1,0 +1,6 @@
+print("===================================")
+print("      VR AI Agent v1.0")
+print("===================================")
+print("Welcome Vikash!")
+print("AI Agent is starting...")
+print("Status: Ready")
